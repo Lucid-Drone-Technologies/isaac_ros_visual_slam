@@ -50,6 +50,10 @@ def generate_launch_description():
                     'enable_image_denoising': False,
                     'rectified_images': True,
                     'enable_imu_fusion': True,
+                    'enable_localization_n_mapping': True,
+                    'enable_ground_constraint_in_odometry': True,
+                    'enable_ground_constraint_in_slam': True,
+                    'publish_map_to_odom_tf': False, # this will be published by AMCL
                     'gyro_noise_density': 0.000244,
                     'gyro_random_walk': 0.000019393,
                     'accel_noise_density': 0.001862,
