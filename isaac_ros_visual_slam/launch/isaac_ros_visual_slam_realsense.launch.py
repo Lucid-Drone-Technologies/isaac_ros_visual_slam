@@ -60,7 +60,7 @@ def generate_launch_description():
                     'accel_random_walk': 0.003,
                     'calibration_frequency': 200.0,
                     'image_jitter_threshold_ms': 22.00,
-                    'base_frame': 'camera_link',
+                    'base_frame': 'base_footprint',
                     'imu_frame': 'camera_gyro_optical_frame',
                     'enable_slam_visualization': True,
                     'enable_landmarks_view': True,
